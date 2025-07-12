@@ -1,48 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-image: url(/image/Hero-bg.png);
-  background-repeat: no-repeat;
+  background-size: 100%;
+  max-height: 698px;
+  margin: 0 auto;
 }
 
-.button-color {
-  color: #4e47ff;
-}
-.logo {
-  font-size: 1.5em;
-  font-weight: bolder;
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  background-color: #f5f8ff;
 }
 
-.logo a {
-  text-decoration: none;
-}
-
-.signup a {
-  text-decoration: none;
-  color: white;
-}
-
-.btn-stay a {
+.header-anchor {
   text-decoration: none;
   color: white;
 }
 
 .btn {
   background-color: #4e47ff;
-  padding: 10px 25px;
-  border-radius: 5px;
+  padding: 12px 36px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 10px;
   border: none;
 }
 
-.content h1 {
-  font-size: 50px;
+.logo a {
+  font-size: 1.5em;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: #4e47ff;
+}
+
+.content-color {
+  color: #252432;
 }
 
 .nav-div {
   display: flex;
   justify-content: space-between;
-  margin: 40px 120px;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  padding: 50px 150px;
 }
 
 .content {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 158px;
+  align-items: center;
+}
+
+.content h1 {
+  padding: 35px;
+  font-size: 65px;
+}
+.content button {
+  margin-bottom: 158px;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.action {
+  display: flex;
+  gap: 220px;
+  align-items: center;
+  margin: 116px 150px;
+}
+
+.action-contain {
+  max-width: 517px;
+  max-height: 303px;
+}
+
+.action-contain h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.action-contain p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  opacity: 50%;
+}
+.action-image img {
+  border-radius: 48px;
 }

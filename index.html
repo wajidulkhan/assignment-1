@@ -4,25 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dark UI Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
     <header>
       <nav class="nav">
-        <div class="nav-div">
-          <div class="logo button-color"><a href="">LOGO</a></div>
-          <button class="btn signup button-color">
-            <a href="">Sign Up</a>
-          </button>
-        </div>
+        <ul class="nav-div">
+          <li>
+            <h3 class="logo"><a href="">LOGO</a></h3>
+          </li>
+          <li>
+            <button class="btn signup">
+              <a href="" class="header-anchor">Sign Up</a>
+            </button>
+          </li>
+        </ul>
       </nav>
 
       <div class="content">
         <h1>Cool Dark UI Template for<br />Webflow Agencies!</h1>
-        <button class="btn btn-stay button-color">
-          <a href="">Stay Focused</a>
+        <button class="btn">
+          <a href="" class="header-anchor">Stay Focused</a>
         </button>
       </div>
     </header>
+    <main>
+      <section class="action">
+        <div class="action-contain">
+          <h1>See It in Action</h1>
+          <p class=".content-color">
+            Explore the live preview and imagine your brand in this bold new
+            look.
+          </p>
+          <button class="btn">
+            <a href="" class="header-anchor">Launch Live Preview</a>
+          </button>
+        </div>
+
+        <div class="action-image"><img src="/image/wc-mini.png" alt="" /></div>
+      </section>
+    </main>
   </body>
 </html>
