@@ -19,6 +19,7 @@ body {
 .header-anchor {
   text-decoration: none;
   color: white;
+  font-size: 16px;
 }
 
 .btn {
@@ -192,4 +193,35 @@ main {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.focus {
+  text-align: center;
+  margin-top: 137px;
+  background-color: #ffffff;
+}
+
+.focus-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 71px;
+}
+
+.focus-content p {
+  font-size: 22px;
+  font-weight: normal;
+  color: #000000;
+  opacity: 50%;
+  margin-top: 20px;
+}
+
+.focus-content button {
+  margin: 20px;
+  padding: 12px 36px;
+}
+
+.focus-image img {
+  border-radius: 48px;
+  margin: 0 150px 71px 150px;
+  width: 70%;
 }
