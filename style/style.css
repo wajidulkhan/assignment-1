@@ -10,6 +10,15 @@ header {
   margin: 0 auto;
 }
 
+.btn-hover:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.btn-hover-a:hover {
+  color: #000000;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -263,6 +272,11 @@ main {
   font-weight: bold;
   border-radius: 10px;
   border: none;
+}
+
+#submit:hover {
+  background-color: orange;
+  color: #000000;
 }
 
 .from-item input::placeholder {
