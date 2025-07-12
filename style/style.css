@@ -33,7 +33,7 @@ body {
 }
 
 .logo a {
-  font-size: 1.5em;
+  font-size: 35px;
   font-weight: 900;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -224,4 +224,95 @@ main {
   border-radius: 48px;
   margin: 0 150px 71px 150px;
   width: 70%;
+}
+
+.from {
+  display: flex;
+  justify-content: space-between;
+  gap: auto;
+  align-items: center;
+  margin-top: 71px;
+}
+
+.from-titile {
+  font-size: 97px;
+  font-style: bold;
+}
+
+.from-item input {
+  height: 70px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+.from textarea {
+  height: 135px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+#submit {
+  height: 62px;
+  color: white;
+  font-size: 16px;
+  background-color: #4e47ff;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+.from-item input::placeholder {
+  font-size: 20px;
+  margin: 20px 0px 20px 132px;
+  padding-left: 32px;
+}
+
+.from-item textarea::placeholder {
+  font-size: 20px;
+  padding: 20px 32px 85px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 250px;
+}
+
+.footer-nev {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer-store h1 {
+  font-size: 100px;
+  color: #4e47ff;
+  font-family: "Inter", sans-serif;
+  padding: 105px 0 40px 0;
+}
+
+.footer-store p {
+  color: #8987a1;
+  line-height: 0.5px;
+}
+
+.footer-nev li a {
+  text-decoration: none;
+  color: #8987a1;
+}
+.footer-nev li {
+  padding: 40px 0 105px 0;
 }
